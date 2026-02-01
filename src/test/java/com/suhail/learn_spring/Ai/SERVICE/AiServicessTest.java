@@ -16,6 +16,12 @@ class AiServicessTest {
         System.out.print(e+" ");
     }
     }
+    @Test
+    public void testStoreData(){
+        aiServicess.ingestDataToVectorStore("hey, how are you");
+        System.out.println("Abcgit status" +
+                "");
+    }
 
 
 }
